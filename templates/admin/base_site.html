@@ -1,8 +1,19 @@
 {% extends "admin/base.html" %}
-{% block title %}{{ title }}| Teste {% endblock %}
+{% load static %}
+{% block title %} Will | Teste {% endblock %}
+<head>
+<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+<link href="{% static 'css/font-admin.css' %}">
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/css/base2.css' %}">
+{% endblock %}
+</head>
+
 
 {% block branding %}
 <h1 id="site-name"><a href="{% url 'admin:index' %}">asdasd</a></h1>
+
 {% endblock %}
 
 {% block nav-global %}{% endblock %}

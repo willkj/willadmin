@@ -1,0 +1,33 @@
+
+:root {
+    --gray: #ccc;
+    --dark-green: #24b7d1;
+    --light-green: #85c0a3;
+    --medium-green: #54babb;
+    --btn-color: #31acbc;
+    --highlighter: #3092a0;
+    --highlight: #7dd2dd;
+    --text-color: #646464;
+    --hover-green: #2d9fae;
+    --blue: #33b8ca;
+    --green-linear-grad: linear-gradient(to left, #85c0a3 20%, #24b7d1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;font-family: 'Questrial', ;
+    color: #ffffff!important;
+    background: #ffffff;
+}
+
+
+#header {
+    width: auto;
+    height: 40px;
+    padding: 10px 40px;
+    background: var(--green-linear-grad);
+    line-height: 40px;
+    color: #ffc;
+    overflow: hidden;
+}
